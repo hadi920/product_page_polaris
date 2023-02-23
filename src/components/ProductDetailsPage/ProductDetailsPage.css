@@ -1,0 +1,75 @@
+.offerHeading .Polaris-Box {
+  background-color: #8d5a33;
+  color: white;
+}
+
+.content {
+  display: flex;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.container {
+  width: 85%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.content .productImage {
+  width: 100%;
+}
+
+.content .productImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  height: 400px;
+}
+
+.content .productDetails {
+  width: 100%;
+  text-align: left;
+}
+
+.checkoutButton .Polaris-Button--fullWidth {
+  border: 1px solid #8d5a33;
+  background: white;
+  color: #8d5a33;
+}
+
+.content .productDetails .price {
+  margin: 10px 0;
+  color: #8d5a33;
+}
+
+.orderButton .Polaris-Button--fullWidth {
+  background: #8d5a33;
+  color: white;
+}
+
+.quantitySelector .minus button {
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 1px solid #aeb4b9;
+  cursor: pointer;
+}
+
+.quantitySelector .plus button {
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 1px solid #aeb4b9;
+  cursor: pointer;
+}
+
+.quantitySelector {
+  background: white;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #aeb4b9;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
