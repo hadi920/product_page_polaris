@@ -79,6 +79,10 @@
   padding: 10px 30px;
 }
 
+.pagination .page .black {
+  background: black;
+}
+
 .pagination .page {
   height: 5px;
   width: 100%;
