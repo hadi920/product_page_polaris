@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ChevronLeftMinor, ChevronRightMinor } from "@shopify/polaris-icons";
-import Carousel from "carousel-react-rcdev";
 import {
   Stack,
   Box,
@@ -100,8 +99,8 @@ const ProductDetailsPage = () => {
                 </Box>
               </div>
             </Stack.Item>
-            <Stack.Item>
-              <Carousel>
+            <Slider ref={sliderRef} {...settings}>
+              <Stack.Item>
                 <div className="content">
                   <div className="productImage">
                     <Box padding="4" width="100%">
@@ -176,8 +175,8 @@ const ProductDetailsPage = () => {
                     </Box>
                   </div>
                 </div>
-              </Carousel>
-            </Stack.Item>
+              </Stack.Item>
+            </Slider>
           </Stack>
         </Box>
       </div>
