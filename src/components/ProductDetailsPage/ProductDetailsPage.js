@@ -95,6 +95,28 @@ const ProductDetailsPage = () => {
         "Blue Blazer with Pant Jacket",
       ],
     },
+    {
+      id: 3,
+      image: productImage,
+      title: "Blue Graphic T-Shirt",
+      discountedPrice: 10.0,
+      originalPrice: 20.0,
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicingelit. Recusandae, quae!",
+      savings: 20,
+      options: [
+        { label: "Variants - As pic/ XL /China", value: "XL" },
+        { label: "Variants - As pic/ M /China", value: "M" },
+        { label: "Variants - As pic/ S /China", value: "S" },
+        { label: "Variants - As pic/ L /China", value: "L" },
+      ],
+      variants: [
+        "Solid Shirt with Pant Jacket",
+        "Blue Pant with pant jacket",
+        "Blue Blazer with Pant Jacket",
+        "Blue Blazer with Pant Jacket",
+      ],
+    },
   ];
 
   const settings = {
