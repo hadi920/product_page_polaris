@@ -3,6 +3,30 @@
   color: white;
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.buttons .prevBtn .Polaris-Button__Text {
+  color: black;
+}
+
+.buttons .nextBtn .Polaris-Button__Text {
+  color: black;
+}
+
+.buttons .prevBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons .nextBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
 .content {
   display: flex;
   padding: 0 10px;
@@ -15,6 +39,7 @@
   margin: auto;
   display: flex;
   justify-content: center;
+  border-radius: 15px;
 }
 
 .content .productImage {
@@ -49,6 +74,19 @@
   color: white;
 }
 
+.pagination {
+  display: flex;
+  padding: 10px 30px;
+}
+
+.pagination .page {
+  height: 5px;
+  width: 100%;
+  background: #b3b3b3;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
 .quantitySelector .minus button {
   border-radius: 50%;
   margin: 0 5px;
@@ -72,4 +110,8 @@
   display: flex;
   align-items: center;
   justify-content: left;
+}
+
+.slider {
+  display: flex;
 }
